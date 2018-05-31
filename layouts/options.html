@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/styles/button.css">
+	<meta charset="utf-8">
+	<title>Cr- Thắng</title>
+</head>
+<body style="background-color: #f2f2f2;width: 400px">
+	<div class="container">
+		<div class="row">
+			<div class=" panel panel-primary" style="margin-bottom: 0;">
+				<div class="panel-heading">
+					<h3 class="panel-title text-center"><span aria-hidden="true" class="glyphicon glyphicon-cog"></span>Thông báo tin nhắn Facebook</h3>
+				</div>
+				<div class="panel-body">
+					<label for="thongbao">Thông báo tin nhắn
+						<div class="btn-group" id="status" data-toggle="buttons">
+			              <label class="btn btn-default btn-on btn-xs" id="1">
+			              <input type="radio" value="1" name="multifeatured_module[module_id][status]">ON</label>
+			              <label class="btn btn-default btn-off btn-xs" id="0">
+			              <input type="radio" value="0" name="multifeatured_module[module_id][status]"  checked="checked">OFF</label>
+            			</div>
+					</label>
+					<input type="text" placeholder="Nhập tên bạn..." name="" id="thongbao" class="form-control" rows="3" required="required" style="resize: none;">
+					
+					<button type="button" class="btn btn-primary block-center" style="margin-top: 15px; text-align: center;" id="save"><span aria-hidden="true" class="glyphicon glyphicon-ok" onclick="ten()"></span> Lưu</button>
+					<input type="button" class="btn btn-primary button2" style="margin-top: 15px; text-align: center ;cursor: not-allowed;" id="ten" value="Xin Chào"></button>
+				</div>
+				<div class="panel-footer text-center">Copyright <strong><a href="https://crthang.blogspot.com" target="_blank">Cr- Thắng</a></strong>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="/scripts/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="/scripts/background.js"></script>
+	<script type="text/javascript" src="/scripts/content.js"></script>
+	<script type="text/javascript" src="/scripts/action.js"></script>
+	<script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
+	
+</body>
+</html>
+
+	
